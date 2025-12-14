@@ -12,7 +12,7 @@ app = Flask(__name__)
 # ==========================================
 PI_IP         = "10.243.6.104"       # IP ของ Raspberry Pi
 INFLUX_URL    = f"http://{PI_IP}:8086"
-INFLUX_TOKEN  = "BMvUDwq7stNMmgGJPatqIoPWWH8KJ1tqKqN3goGYCOG1uXGWTTGfeYkhO_AbNgvDF9EAtxwfCHGSeP0J5JrFXA=="
+INFLUX_TOKEN  = ""
 INFLUX_ORG    = "Student"
 INFLUX_BUCKET = "iot_data"
 
